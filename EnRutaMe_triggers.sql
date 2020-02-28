@@ -1,3 +1,4 @@
+
 -- MySQL dump 10.13  Distrib 8.0.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: procedimientoalmacenado
@@ -15,6 +16,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+create database enrutame_triggers;
+use enrutame_triggers;
 --
 -- Table structure for table `calificacion`
 --
