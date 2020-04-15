@@ -158,8 +158,6 @@ CREATE TABLE `ruta` (
   `id` int(11) DEFAULT NULL,
   `num_buses` int(11) DEFAULT NULL,
   `nombre_ruta` varchar(30) DEFAULT NULL,
-  `precio_pref` varchar(80) DEFAULT NULL,
-  `precio_regular` varchar(80) DEFAULT NULL,
   KEY `RUTAS` (`id`,`num_buses`,`nombre_ruta`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
